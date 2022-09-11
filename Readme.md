@@ -10,7 +10,7 @@ All feature files are located in ./features/
 ## Limitations
 
 I was not able to make the framework work when more than one call to the backend was made in the login process.
-This is either due to limitations of the framework used, some unknown local limitation on my side, or a security feature in the application that prevents logging in with testautomation multiple times in one session.
+This is either due to limitations of the framework used, some unknown local limitation on my side, or a security feature in the application that prevents logging in with test automation multiple times in one session.
 Because of this, I have split up the tests in multiple feature files and tests can only be executed one feature file at a time.
 I've tried to add the reloadSession method to be executed after each scenario, but doing this broke the test execution of the framework that I could not solve in time. 
 
